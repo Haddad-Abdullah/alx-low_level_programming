@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet
- *
+ * print_alphabet - Entry point
  * Description: printing a row of alphabets
- *
- * Return: Always 0.
+ * Return: Always 0
  */
 
 void print_alphabet(void)
