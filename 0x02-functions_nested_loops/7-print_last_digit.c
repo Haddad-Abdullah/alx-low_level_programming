@@ -8,11 +8,12 @@
  * Return: n
  */
 
-int print_last_digit(int n)
+int print_last_digit(int)
 {
 	int i;
+	int a;
 
-	char C[] = (int a);
+	char C[a] = (int);
 	for (i = 0; i <= a; i++);
 	return (C[i]);
 }
