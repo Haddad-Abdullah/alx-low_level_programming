@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * main - Entry point
+ * Description: '0x02. C - Functions, nested loops'
+ * Return: Always 0
+ */
 
 int main(void)
 {
