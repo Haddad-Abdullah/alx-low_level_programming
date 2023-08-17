@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * _abd - Entry point
+ *
+ * Description: 'getting the positive value of any num'
  *
  * Return: Always 0.
  */

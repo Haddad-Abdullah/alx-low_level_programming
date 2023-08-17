@@ -1,9 +1,11 @@
 #include "main.c"
 
 /*
- * printing last digit in numerics
+ * print_last_digit - Entry point
  *
- * returning it
+ * Description: 'printing last digit in numerics'
+ *
+ * Return: n
  */
 
 int print_last_digit(int n)
@@ -12,4 +14,3 @@ int print_last_digit(int n)
 	for (i = 0; i <= a; i++);
 	return (C[i]);
 }
-return (n);

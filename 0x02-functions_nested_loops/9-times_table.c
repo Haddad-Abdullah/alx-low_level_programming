@@ -1,9 +1,11 @@
 #include "main.c"
 
 /*
- * what th is time tables?!!
+ * times_table - Entry point
  *
+ * Description: 'what th is time tables?!!'
  *
+ * Return: 0
  */
 
 void times_table(void)

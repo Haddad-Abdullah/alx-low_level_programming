@@ -1,8 +1,11 @@
 #include "main.h"
 
 /*
- * function for adding
+ * add - Entry point
  *
+ * Description: 'function for adding'
+ *
+ * Return: sum of the two nums
  */
 
 int main(void)

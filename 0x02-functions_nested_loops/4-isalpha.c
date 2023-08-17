@@ -1,9 +1,11 @@
 #include "main.c"
 
 /*
- * checking if char
+ * _isalpha - Entry point
  *
- * return 0
+ * Description: 'checking if char'
+ *
+ * Return: 0 or 1 
  */
 
 int _isalpha(int c)

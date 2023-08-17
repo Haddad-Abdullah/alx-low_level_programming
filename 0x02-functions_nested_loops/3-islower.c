@@ -1,8 +1,10 @@
 #include "main.c"
 /**
- * Checking if the char is lowercase or uppercase
+ * _islower - Entry point
  *
- * Retrns 0
+ * Description: 'Checking if the char is lowercase or uppercase'
+ *
+ * Retrn: 0or 1
  */
 
 int _islower(int c)

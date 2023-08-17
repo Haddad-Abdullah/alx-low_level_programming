@@ -1,7 +1,10 @@
 #include "main.c"
 /*
- * sign check
+ * print_sign - Entry point
  *
+ * Description: 'sign check'
+ *
+ * Return: n
  */
 
 int print_sign(int n)
