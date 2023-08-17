@@ -1,7 +1,9 @@
 #include "main.h"
 
 /**
- * printing the alphabet
+ * print_alphabet
+ *
+ * Description: printing a row of alphabets
  *
  * Return: Always 0.
  */
