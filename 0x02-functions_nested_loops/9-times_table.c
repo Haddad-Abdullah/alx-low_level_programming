@@ -10,8 +10,8 @@
 
 void times_table(void)
 {
-	int r;
-	int c;
+	int r = 0;
+	int c = 0;
 	int v = (r * c);
 
 	for (r = 0; r <= 10; r++)
