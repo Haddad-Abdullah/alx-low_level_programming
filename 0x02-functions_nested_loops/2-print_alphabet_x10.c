@@ -5,18 +5,15 @@
  *
  *Return: Always 0
  */
-int main(void)
+
+char print_alphabet_x10(void)
 {
-	char print_alphabet_x10(void)
+	int r;
+	for (r = 0; r < 11; r++)
 	{
-		int r;
-		for (r = 0; r < 11; r++)
+		for (i = 'a'; i <= 'z'; i++)
 		{
-			for (i = 'a'; i <= 'z'; i++)
-			{
-				_putchar(i);
-			}
-		_putchar('/n');
-	}
-	return (0);
+			_putchar(i);
+		}
+	_putchar('/n');
 }
