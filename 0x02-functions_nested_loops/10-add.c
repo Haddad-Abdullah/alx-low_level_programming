@@ -8,11 +8,8 @@
  * Return: sum of the two nums
  */
 
-int main(void)
+int add(int a, int b)
 {
-	int add(int a, int b)
-	{
-		int sum = (a + b);
-		return (sum);
-	}
+	int sum = (a + b);
+	return (sum);
 }
