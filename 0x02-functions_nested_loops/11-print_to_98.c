@@ -1,11 +1,13 @@
 #include "main.h"
 
-/*
- * print_to_98 - Entry point
+/**
+ * print_to_98 - print to 98
  *
- * Description: print any number till 98
+ * Description: function that prints all natural numbers from n to 98,
  *
- * Return: 98 (ig)
+ * @n : number to start from
+ *
+ * Return: Always 0 or 1 (success)
  *
  */
 

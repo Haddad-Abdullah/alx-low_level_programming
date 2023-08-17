@@ -1,10 +1,14 @@
 #include "main.h"
-/*
- * print_sign - Entry point
+
+/**
+ * print_sign - prints the sign of a number
  *
- * Description: 'sign check'
+ * Description: a function that prints the sign of a number.
  *
- * Return: n
+ * @n : number to check
+ *
+ * Return: Always 0 or 1 (success)
+ *
  */
 
 int print_sign(int n)
