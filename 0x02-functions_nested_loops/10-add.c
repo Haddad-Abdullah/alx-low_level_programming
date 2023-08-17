@@ -7,7 +7,7 @@
  *
  * @b: int type number
  *
- * Return: Always sum 
+ * Return: Always sum
  *
  */
 
