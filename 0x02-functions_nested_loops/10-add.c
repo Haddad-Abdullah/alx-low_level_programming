@@ -1,15 +1,19 @@
 #include "main.h"
 
-/*
- * add - Entry point
+/**
+ * add - returns the sum of its parameters
  *
- * Description: 'function for adding'
+ * @a: int type number
  *
- * Return: sum of the two nums
+ * @b: int type number
+ *
+ * Return: Always sum 
+ *
  */
 
 int add(int a, int b)
 {
 	int sum = (a + b);
+
 	return (sum);
 }
