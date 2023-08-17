@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * _abd - Entry point
+ * _abs - Entry point
  *
- * Description: 'getting the positive value of any num'
+ * Description: getting the positive value of any num.
+ *
+ * @n : is the given num
  *
  * Return: n
  */
