@@ -3,9 +3,10 @@
 /*
  * print_to_98 - Entry point
  *
- * Description 'print any number till 98'
+ * Description: print any number till 98
  *
  * Return: 98 (ig)
+ *
  */
 
 void print_to_98(int n)
