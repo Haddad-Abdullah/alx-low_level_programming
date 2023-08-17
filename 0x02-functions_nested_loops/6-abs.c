@@ -5,12 +5,12 @@
  *
  * Description: 'getting the positive value of any num'
  *
- * Return: Always 0.
+ * Return: n
  */
 
 int _abs(int n)
 {
 	if (n < 0)
 		n = (n *(-1));
-	return (0);
+	return (n);
 }
