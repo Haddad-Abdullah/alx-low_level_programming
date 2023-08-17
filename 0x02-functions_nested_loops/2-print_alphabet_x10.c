@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char print_alphabetx10(void)
+	char print_alphabet_x10(void)
 	{
 		int r;
 		for (r = 0; r < 11; r++)
@@ -20,4 +20,3 @@ int main(void)
 	}
 	return (0);
 }
-
