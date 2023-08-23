@@ -21,9 +21,10 @@ void rev_string(char *s)
 		n++;
 	}
 
-	for (n; n > 0; n--)
+	while (n > 0)
 	{
 		rev[m] = s[n];
 		m++;
+		n--;
 	}
 }
