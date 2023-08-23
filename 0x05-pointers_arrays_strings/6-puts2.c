@@ -11,7 +11,7 @@ void puts2(char *str)
 
 	if (str[0] == 'L')
 	{
-		for (n = 0; n < 448; n += 2)
+		for (n = 0; n < 447; n += 2)
 		{
 			_putchar (str[n]);
 		}
