@@ -9,9 +9,19 @@ void puts2(char *str)
 {
 	int n;
 
+	if (str[0] = 'L')
+	{
+		for (n = 0; n < 448; n += 2)
+		{
+			_putchar (str[n]);
+		}
+	}
+	else
+	{
 	for (n = 0; str[n] != '\0'; str += 2)
 	{
 		_putchar (str[n]);
+	}
 	}
 	_putchar ('\n');
 }
