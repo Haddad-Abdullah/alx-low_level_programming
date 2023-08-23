@@ -3,8 +3,7 @@
 /**
  * print_array - prints number of elements of array of integers, new line.
  * @a: array to be printed.
- * @n: num of elements.
- * @i: variable to get the values of array members.
+ * @n: num of elements. 
  */
 
 void print_array(int *a, int n)
