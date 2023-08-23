@@ -9,7 +9,7 @@ void puts2(char *str)
 {
 	int n;
 
-	if (str[0] = 'L')
+	if (str[0] == 'L')
 	{
 		for (n = 0; n < 448; n += 2)
 		{
