@@ -6,15 +6,16 @@
 
 void puts_half(char *str)
 {
-	int l, n;
+	int l, n, k;
 
 	l = 0;
+	k = (n % 2);
 
 	while (str[l] != '\0')
 	{
 		l++;
 	}
-	if (n % 2 == 0)
+	if (k == 0)
 	{
 		n = n / 2;
                 for (; l < n; l--)
