@@ -2,12 +2,14 @@
 
 /**
  * main - the main of FizzBuzz that prints numbers to 100 but multiplies of 3, 5
- * @n: used as an indicator
+ *
  * Return: always 0
  */
 
-void main(int n)
+void main(void)
 {
+	int n;
+
 	for (n = 1; n <= 100; n++)
 	{
 		if (n % 15)
