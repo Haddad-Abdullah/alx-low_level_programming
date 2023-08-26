@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - the main of FizzBuzz that prints numbers to 100 but multiplies of 3, 5
