@@ -10,15 +10,13 @@ void print_diagonal(int n)
 	int rows;
 	int spc;
 
-	spc = 0;
-
 	for (rows = 0; rows < n; rows++)
 	{
 		for (spc = 0; spc < rows; spc++)
 		{
 			_putchar(' ');
 		}
-		_putchar('\');
+		_putchar('\\');
 	}
 	_putchar('\n');
 }
