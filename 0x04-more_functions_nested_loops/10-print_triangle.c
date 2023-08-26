@@ -9,7 +9,7 @@ void print_triangle(int size)
 {
 	int rows, spc, i;
 
-	for (rows = 1; rows <= size; rows++)
+	for (rows = 0; rows < size; rows++)
 	{
 		for (spc = size; spc > 0; spc--)
 			_putchar(' ');
