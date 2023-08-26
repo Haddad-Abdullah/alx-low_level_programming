@@ -3,6 +3,7 @@
 /**
  * main - the main of FizzBuzz that prints numbers to 100 but multiplies of 3, 5
  * @n: used as an indicator
+ * Return: always 0
  */
 
 void main(int n)
@@ -20,4 +21,6 @@ void main(int n)
 		if (n < 100)
 			printf(" ");
 	}
+	printf("\n");
+	return (0);
 }
