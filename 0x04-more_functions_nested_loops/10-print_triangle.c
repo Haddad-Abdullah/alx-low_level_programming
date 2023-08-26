@@ -7,6 +7,7 @@
 
 void print_triangle(int size)
 {
+	int rows, spc, i;
 
 	for (rows = 1; rows <= size; rows++)
 	{
