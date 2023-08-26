@@ -12,9 +12,9 @@ int _isupper(int c)
 	{
 		c = 1;
 	}
-	else if (c > 96 && c < 123)
-        {       
-                c = 0;
-        }
+	else
+	{
+		c = 0;
+	}
 	return (c);
 }
