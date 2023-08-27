@@ -11,9 +11,9 @@ void print_triangle(int size)
 
 	for (rows = 1; rows <= size; rows++)
 	{
-		for (spc = size - rows; spc > rows; spc--)
+		for (spc = size - rows; spc >= 1; spc--)
 			_putchar(' ');
-		for (i = 0; i <= rows; i++)
+		for (i = 1; i <= rows; i++)
 			_putchar('#');
 		_putchar('\n');
 	}
