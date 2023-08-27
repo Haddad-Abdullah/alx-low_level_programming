@@ -9,11 +9,11 @@ void print_triangle(int size)
 {
 	int rows, spc, i;
 
-	for (rows = 0; rows < size; rows++)
+	for (rows = 1; rows <= size; rows++)
 	{
-		for (spc = size - 1; spc > 1; spc--)
+		for (spc = size - rows; spc > rows; spc--)
 			_putchar(' ');
-		for (i = 0; i < rows; i++)
+		for (i = 0; i <= rows; i++)
 			_putchar('#');
 		_putchar('\n');
 	}
