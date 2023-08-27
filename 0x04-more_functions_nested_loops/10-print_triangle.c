@@ -13,7 +13,7 @@ void print_triangle(int size)
 	{
 		for (spc = size; spc > 1; spc--)
 			_putchar(' ');
-		for (i = 0; i < rows; i++)
+		for (i = 0; i < size; i++)
 			_putchar('#');
 		_putchar('\n');
 	}
