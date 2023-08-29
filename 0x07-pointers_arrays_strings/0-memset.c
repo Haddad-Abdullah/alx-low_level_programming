@@ -1,17 +1,15 @@
 #include "main.h"
-
 /**
- * _memset - A function to reset chars in memory
- *
- * @s: destenation
+ * _memset -  function that fills memory with a constant byte.
+ * @s: destination
  * @b: src
- * @n: number of bytes to be replaced
- * Return: pointer to the dest. @s
+ * @n: num of bytes
+ *
+ * Return: pointer to the dest
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int = i;
+	unsigned int i;
 
 	for (i = 0; i < n; i++)
 	{
